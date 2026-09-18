@@ -4,9 +4,9 @@
   <defs>
     <linearGradient id="header" x1="0" x2="1"><stop stop-color="#0a4f8d"/><stop offset="1" stop-color="#06345e"/></linearGradient>
     <style>
-      .h { font: 700 43px Arial, sans-serif; fill: #fff; } .s { font: 400 25px Arial, sans-serif; fill: #e8f4ff; }
-      .n { font: 700 32px Arial, sans-serif; fill: #fff; } .t { font: 700 23px Arial, sans-serif; fill: #103967; }
-      .b { font: 400 19px Arial, sans-serif; fill: #253a54; } .small { font: 400 16px Arial, sans-serif; fill: #42556c; }
+      .h { font: 700 12px Arial, sans-serif; fill: #fff; } .s { font: 400 12px Arial, sans-serif; fill: #e8f4ff; }
+      .n { font: 700 12px Arial, sans-serif; fill: #fff; } .t { font: 700 12px Arial, sans-serif; fill: #103967; }
+      .b { font: 400 12px Arial, sans-serif; fill: #253a54; } .small { font: 400 12px Arial, sans-serif; fill: #42556c; }
       .card { fill: #f7fbff; stroke: #d8e8f7; stroke-width: 2; } .ok { fill: #28a745; } .arrow { stroke: #1681cf; stroke-width: 8; fill: none; stroke-linecap: round; }
     </style>
   </defs>
@@ -30,10 +30,10 @@
     <rect class="card" width="365" height="305" rx="18"/>
     <circle cx="38" cy="40" r="26" fill="#1674b9"/><text x="29" y="51" class="n">2</text>
     <text x="82" y="47" class="t">Старый и новый блок</text>
-    <rect x="65" y="84" width="230" height="62" rx="8" fill="#30343a"/><text x="129" y="122" fill="#ccd2d9" font-family="Arial" font-size="22">Старый блок</text>
+    <rect x="65" y="84" width="230" height="62" rx="8" fill="#30343a"/><text x="129" y="122" fill="#ccd2d9" font-family="Arial" font-size="12">Старый блок</text>
     <text x="45" y="170" class="small">Проблема GSM/SIM</text>
     <path d="M180 182v38m-16-16 16 16 16-16" class="arrow"/>
-    <rect x="65" y="235" width="230" height="62" rx="8" fill="#252b31"/><text x="128" y="273" fill="#fff" font-family="Arial" font-size="22">Новый S96 v2</text>
+    <rect x="65" y="235" width="230" height="62" rx="8" fill="#252b31"/><text x="128" y="273" fill="#fff" font-family="Arial" font-size="12">Новый S96 v2</text>
   </g>
   <g transform="translate(811 160)">
     <rect class="card" width="365" height="305" rx="18"/>
@@ -48,9 +48,9 @@
     <circle cx="38" cy="40" r="26" fill="#1674b9"/><text x="29" y="51" class="n">4</text>
     <text x="82" y="47" class="t">StarLine Master</text>
     <rect x="76" y="82" width="210" height="154" rx="8" fill="#253b51"/><rect x="89" y="96" width="184" height="116" fill="#fff"/>
-    <text x="111" y="130" fill="#1681cf" font-family="Arial" font-size="20" font-weight="700">Диагностика</text>
-    <text x="111" y="160" fill="#42556c" font-family="Arial" font-size="17">CAN · настройка · ПО</text>
-    <text x="111" y="189" fill="#28a745" font-family="Arial" font-size="17">Новое устройство</text>
+    <text x="111" y="130" fill="#1681cf" font-family="Arial" font-size="12" font-weight="700">Диагностика</text>
+    <text x="111" y="160" fill="#42556c" font-family="Arial" font-size="12">CAN · настройка · ПО</text>
+    <text x="111" y="189" fill="#28a745" font-family="Arial" font-size="12">Новое устройство</text>
     <text x="40" y="270" class="small">Только актуальная карта установки</text>
   </g>
 
@@ -79,5 +79,5 @@
     <text x="55" y="270" class="small">Подробные шаги — в документации репозитория.</text>
   </g>
   <rect x="25" y="830" width="1544" height="45" rx="10" fill="#0b5b9d"/>
-  <text x="50" y="860" fill="#fff" font-family="Arial" font-size="21">Безопасность · Надёжность · Контроль</text>
+  <text x="50" y="860" fill="#fff" font-family="Arial" font-size="12">Безопасность · Надёжность · Контроль</text>
 </svg>
