@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Схема замены центрального блока StarLine S96 v2</title>
+  <desc id="desc">Инфографика: Toyota Camry XV40, сохранение существующей проводки, настройка нового блока через StarLine Master и итоговая проверка.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" x2="1"><stop stop-color="#0a4f8d"/><stop offset="1" stop-color="#06345e"/></linearGradient>
+    <style>
+      .h { font: 700 43px Arial, sans-serif; fill: #fff; } .s { font: 400 25px Arial, sans-serif; fill: #e8f4ff; }
+      .n { font: 700 32px Arial, sans-serif; fill: #fff; } .t { font: 700 23px Arial, sans-serif; fill: #103967; }
+      .b { font: 400 19px Arial, sans-serif; fill: #253a54; } .small { font: 400 16px Arial, sans-serif; fill: #42556c; }
+      .card { fill: #f7fbff; stroke: #d8e8f7; stroke-width: 2; } .ok { fill: #28a745; } .arrow { stroke: #1681cf; stroke-width: 8; fill: none; stroke-linecap: round; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#fff"/>
+  <rect x="0" y="0" width="1600" height="132" fill="url(#header)"/>
+  <text x="40" y="58" class="h">Замена центрального блока StarLine S96 v2</text>
+  <text x="40" y="101" class="s">Toyota Camry XV40 · 2009 · 2.4 · АКПП · штатный ключ</text>
+  <text x="1195" y="53" class="s">Сохраняем штатные функции</text>
+  <text x="1195" y="87" class="s">Настраиваем правильно</text>
+  <text x="1195" y="116" class="s">Едем дальше</text>
+
+  <g transform="translate(25 160)">
+    <rect class="card" width="365" height="305" rx="18"/>
+    <circle cx="38" cy="40" r="26" fill="#1674b9"/><text x="29" y="51" class="n">1</text>
+    <text x="82" y="47" class="t">Автомобиль</text>
+    <path d="M70 195h230l-16-54-45-30H129l-45 30z" fill="#334d63"/><path d="M112 139h137l25 35H86z" fill="#9bc3df"/>
+    <circle cx="123" cy="202" r="25" fill="#182631"/><circle cx="248" cy="202" r="25" fill="#182631"/>
+    <text x="35" y="253" class="b">Toyota Camry XV40</text><text x="35" y="280" class="b">2009 год · двигатель 2.4 · АКПП</text>
+  </g>
+  <g transform="translate(418 160)">
+    <rect class="card" width="365" height="305" rx="18"/>
+    <circle cx="38" cy="40" r="26" fill="#1674b9"/><text x="29" y="51" class="n">2</text>
+    <text x="82" y="47" class="t">Старый и новый блок</text>
+    <rect x="65" y="84" width="230" height="62" rx="8" fill="#30343a"/><text x="129" y="122" fill="#ccd2d9" font-family="Arial" font-size="22">Старый блок</text>
+    <text x="45" y="170" class="small">Проблема GSM/SIM</text>
+    <path d="M180 182v38m-16-16 16 16 16-16" class="arrow"/>
+    <rect x="65" y="235" width="230" height="62" rx="8" fill="#252b31"/><text x="128" y="273" fill="#fff" font-family="Arial" font-size="22">Новый S96 v2</text>
+  </g>
+  <g transform="translate(811 160)">
+    <rect class="card" width="365" height="305" rx="18"/>
+    <circle cx="38" cy="40" r="26" fill="#1674b9"/><text x="29" y="51" class="n">3</text>
+    <text x="82" y="47" class="t">Подключение</text>
+    <rect x="45" y="94" width="275" height="106" rx="12" fill="#252b31"/>
+    <rect x="67" y="169" width="55" height="20" fill="#1e89d5"/><rect x="138" y="169" width="55" height="20" fill="#d64040"/><rect x="210" y="169" width="40" height="20" fill="#222"/><rect x="265" y="169" width="35" height="20" fill="#eee"/>
+    <text x="42" y="239" class="b">Используем существующую проводку.</text><text x="42" y="267" class="b">Разъёмы — только по ключам и маркировке.</text>
+  </g>
+  <g transform="translate(1204 160)">
+    <rect class="card" width="365" height="305" rx="18"/>
+    <circle cx="38" cy="40" r="26" fill="#1674b9"/><text x="29" y="51" class="n">4</text>
+    <text x="82" y="47" class="t">StarLine Master</text>
+    <rect x="76" y="82" width="210" height="154" rx="8" fill="#253b51"/><rect x="89" y="96" width="184" height="116" fill="#fff"/>
+    <text x="111" y="130" fill="#1681cf" font-family="Arial" font-size="20" font-weight="700">Диагностика</text>
+    <text x="111" y="160" fill="#42556c" font-family="Arial" font-size="17">CAN · настройка · ПО</text>
+    <text x="111" y="189" fill="#28a745" font-family="Arial" font-size="17">Новое устройство</text>
+    <text x="40" y="270" class="small">Только актуальная карта установки</text>
+  </g>
+
+  <g transform="translate(25 500)">
+    <rect class="card" width="500" height="300" rx="18"/>
+    <circle cx="38" cy="40" r="26" fill="#1674b9"/><text x="29" y="51" class="n">5</text>
+    <text x="82" y="47" class="t">Проверка CAN и безопасности</text>
+    <g class="b"><text x="55" y="103">● Зажигание и двигатель</text><text x="55" y="139">● Обороты и напряжение</text><text x="55" y="175">● Двери, капот, багажник</text><text x="55" y="211">● Тормоз и положения P/R/N/D</text><text x="55" y="247">● Центральный замок</text></g>
+    <text x="55" y="280" class="small">Не отключать штатные механизмы защиты.</text>
+  </g>
+  <g transform="translate(550 500)">
+    <rect class="card" width="500" height="300" rx="18"/>
+    <circle cx="38" cy="40" r="26" fill="#1674b9"/><text x="29" y="51" class="n">6</text>
+    <text x="82" y="47" class="t">iKey, автозапуск, GSM</text>
+    <text x="55" y="105" class="b">• Обучение — по актуальной документации</text>
+    <text x="55" y="145" class="b">• Первый автозапуск — безопасный тест</text>
+    <text x="55" y="185" class="b">• Новый блок = новое GSM-устройство</text>
+    <text x="55" y="225" class="b">• Регистрация и статусы StarLine 2</text>
+    <text x="55" y="266" class="small">Секретные коды и данные SIM не публикуются.</text>
+  </g>
+  <g transform="translate(1075 500)">
+    <rect class="card" width="494" height="300" rx="18"/>
+    <circle cx="38" cy="40" r="26" fill="#28a745"/><text x="29" y="51" class="n">✓</text>
+    <text x="82" y="47" class="t">Итоговая проверка</text>
+    <g class="b"><text x="55" y="105">✓ Блок определён и закреплён</text><text x="55" y="145">✓ Штатный запуск ключом работает</text><text x="55" y="185">✓ CAN, ЦЗ и иммобилайзер проверены</text><text x="55" y="225">✓ Автозапуск, GSM и StarLine 2 проверены</text></g>
+    <text x="55" y="270" class="small">Подробные шаги — в документации репозитория.</text>
+  </g>
+  <rect x="25" y="830" width="1544" height="45" rx="10" fill="#0b5b9d"/>
+  <text x="50" y="860" fill="#fff" font-family="Arial" font-size="21">Безопасность · Надёжность · Контроль</text>
+</svg>
